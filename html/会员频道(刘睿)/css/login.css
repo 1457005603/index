@@ -1,0 +1,567 @@
+body {
+    overflow-y: auto;
+}
+
+.lr-login-header {
+    height: 31px;
+    background-color: #EBEBEB;
+    padding: 18px 0;
+}
+
+.w1 {
+    margin: 0 auto;
+    width: 998px;
+}
+
+.lr-login-header>div>div {
+    float: left;
+    font-size: 18px;
+}
+
+.lr-login-header>div>div:nth-of-type(2) {
+    height: 20px;
+    margin-top: 6px;
+}
+
+.lr-login-header>div>div:nth-of-type(2) i,
+.lr-login-header>div>div:nth-of-type(2) span {
+    float: left;
+    margin-left: 20px;
+}
+
+.lr-login-header>div>div:nth-of-type(2) i {
+    height: 18px;
+    width: 2px;
+    margin-top: 3px;
+    background-color: #ccc;
+}
+
+.lr-login-bg {
+    height: 590px;
+    background-color: #081638;
+}
+
+.lr-login-main {
+    position: relative;
+    width: 1130px;
+    height: 100%;
+    margin: 0 auto;
+    background: url(../img/lr-login_default_bg.png) no-repeat;
+}
+
+.lr-login-box {
+    position: absolute;
+    right: 0;
+    box-sizing: border-box;
+    width: 380px;
+    height: 530px;
+    padding: 25px 25px 10px;
+    margin: 30px 0;
+    background-color: #fff;
+}
+
+.lr-login-box:nth-child(2) {
+    display: none;
+}
+
+.lr-login-hd>ul>li {
+    float: left;
+    box-sizing: border-box;
+    height: 20px;
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 20px;
+    color: #333;
+    cursor: pointer;
+}
+
+.lr-login-hd>ul>li:nth-child(1) {
+    border-right: 1px solid #ccc;
+}
+
+.lr-login-hd>ul>li:hover {
+    color: #b40707;
+}
+
+.lr-login-hd .lr-current {
+    color: #b40707;
+}
+
+
+/* 账号登录盒子 */
+
+.lr-login-zhanghao {
+    position: absolute;
+    bottom: 0;
+    width: 330px;
+    height: 445px;
+}
+
+.lr-login-username,
+.lr-login-pwd {
+    width: 100%;
+    height: 45px;
+    color: #333;
+    border-bottom: 1px solid #ccc;
+}
+
+.lr-login-bd input::-webkit-input-placeholder {
+    color: rgb(204, 204, 204);
+}
+
+
+/* 短信验证码 */
+
+.lr-login-text,
+.lr-login-btn {
+    display: block;
+    margin-top: 15px;
+}
+
+.lr-login-text i {
+    display: block;
+    float: left;
+    width: 11px;
+    height: 16px;
+    background: url(../img/lr-ic_smsLogin.png) no-repeat -1px 1px;
+}
+
+.lr-login-text span {
+    display: block;
+    float: left;
+    margin-left: 5px;
+    color: rgb(0, 125, 255);
+}
+
+.lr-login-text span:hover {
+    color: blue;
+}
+
+
+/* 短信验证码跳转盒子 */
+
+.lr-login-return {
+    font-size: 16px;
+    color: rgb(0, 125, 255);
+}
+
+.lr-login-return:hover {
+    color: blue;
+}
+
+.lr-login-checkout {
+    position: absolute;
+    right: 0;
+    box-sizing: border-box;
+    width: 380px;
+    height: 530px;
+    padding: 25px 25px 10px;
+    margin: 30px 0;
+    background-color: #fff;
+    display: none;
+}
+
+.lr-checkout {
+    width: 100%;
+    height: 120px;
+    margin-top: 60px;
+}
+
+.lr-checkout-t,
+.lr-checkout-b {
+    position: relative;
+    width: 100%;
+    height: 45px;
+    color: #333;
+    border-bottom: 1px solid #ccc;
+}
+
+
+/* 提示手机号错误 */
+
+.lr-checkout-wrong {
+    position: absolute;
+    top: -10px;
+    left: 30px;
+}
+
+.lr-checkout-sel,
+.lr-checkout-tel,
+.lr-checkout-text {
+    height: 45px;
+}
+
+.lr-checkout-sel {
+    max-width: 100%;
+    min-width: 75px;
+    margin-right: 5px;
+    padding-right: 15px;
+    color: #333;
+    border: none;
+    outline: none;
+    /*去掉默认的下拉三角*/
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    /*添加下拉三角图标*/
+    background: url('../img/lr-triangle_green.png') no-repeat right center transparent;
+}
+
+.lr-checkout-sel option {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    width: 217px;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+
+.lr-checkout-tel {
+    max-width: 100%;
+    border-left: 1px solid #ccc;
+    background-color: transparent;
+}
+
+.lr-checkout-text {
+    width: 100%;
+}
+
+.lr-checkout-f {
+    margin-top: 15px;
+}
+
+
+/* 提示信息 */
+
+.lr-checkout-f {
+    position: relative;
+}
+
+#lr-checkout-checkbox {
+    margin-right: 8px;
+}
+
+.lr-hint1 {
+    position: absolute;
+    left: 12px;
+    bottom: 32px;
+    width: 304px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .2);
+    display: none;
+}
+
+.lr-hint1 p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    line-height: 20px;
+    padding: 10px 8px;
+    border-radius: 10px;
+    background-color: #fff;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.lr-hint1::after {
+    position: absolute;
+    left: 40px;
+    bottom: -5px;
+    content: '';
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .2);
+    transform: rotateZ(45deg);
+}
+
+
+/* 获取验证码 */
+
+.lr-checkout-b a {
+    position: absolute;
+    top: 13px;
+    right: 0;
+    font-size: 14px;
+    color: rgb(0, 125, 255);
+    opacity: .3;
+}
+
+
+/* 账号登录按钮 */
+
+.lr-login-btn {
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff!important;
+    background-color: rgb(180, 7, 7);
+    border-radius: 22px;
+}
+
+.lr-login-btn:hover {
+    background-color: rgb(199, 8, 8);
+}
+
+.lr-login-m {
+    position: relative;
+    margin-top: 20px;
+    height: 16px;
+}
+
+#lr-login-checkbox {
+    margin-right: 8px;
+    color: #fff;
+    background-color: #fff;
+    float: left;
+}
+
+
+/* 提示信息 */
+
+.lr-hint {
+    position: absolute;
+    left: 12px;
+    bottom: 32px;
+    width: 304px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .2);
+    display: none;
+}
+
+.lr-hint p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    line-height: 20px;
+    padding: 10px 8px;
+    border-radius: 10px;
+    background-color: #fff;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.lr-hint::after {
+    position: absolute;
+    left: 40px;
+    bottom: -5px;
+    content: '';
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .2);
+    transform: rotateZ(45deg);
+}
+
+.lr-login-bd {
+    position: relative;
+}
+
+.lr-login-bd>span {
+    position: absolute;
+    top: -20px;
+    display: block;
+    padding-left: 20px;
+    background: url(../img/lr-btn_errorInfo.png) no-repeat left center;
+}
+
+.lr-login-bd .lr-login-more {
+    float: right;
+    margin-top: 0;
+    color: rgb(0, 125, 255);
+}
+
+.lr-login-more:hover {
+    color: blue;
+}
+
+
+/* 更多隐藏盒子 */
+
+.lr-login-hide {
+    box-sizing: border-box;
+    position: absolute;
+    right: 0;
+    top: 22px;
+    width: 107px;
+    height: 162px;
+    padding: 8px 16px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    display: none;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.lr-login-hide li {
+    height: 49px;
+    line-height: 49px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.lr-login-hide li:nth-of-type(-n+2) {
+    border-bottom: 2px solid #ccc;
+}
+
+.lr-login-pro {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.lr-login-pro a {
+    display: inline-block;
+    padding: 0 10px;
+    color: rgb(0, 125, 255);
+}
+
+.lr-login-pro a:hover {
+    color: blue;
+}
+
+.lr-login-pro a:nth-child(1) {
+    border-right: 1px solid #ccc;
+}
+
+
+/* 其他登录方式 */
+
+.lr-login-ft {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 82px;
+}
+
+.lr-login-h {
+    text-align: center;
+    height: 18px;
+}
+
+.lr-login-h i {
+    display: block;
+    width: 94px;
+    height: 1px;
+    margin-top: 8px;
+}
+
+.lr-login-h i:nth-of-type(1) {
+    float: left;
+    background: url(../img/lr-thirdLine.png)
+}
+
+.lr-login-h i:nth-of-type(2) {
+    float: right;
+    background: url(../img/lr-thirdLine-reverse.png)
+}
+
+.lr-login-f {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.lr-login-f a {
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    background-color: pink;
+    background: url(../img/lr-third_login.png) no-repeat;
+}
+
+.lr-login-f a:nth-child(1) {
+    background-position: -72px -9px;
+}
+
+.lr-login-f a:nth-child(2) {
+    margin: 0 15px;
+    background-position: -132px -9px;
+}
+
+.lr-login-f a:nth-child(3) {
+    background-position: -12px -9px;
+}
+
+
+/* 扫码登录盒子 */
+
+.lr-login-saoma {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 380px;
+    height: 445px;
+    background-color: #fff;
+    display: none;
+}
+
+.lr-saoma {
+    width: 100%;
+    height: 262px;
+}
+
+.lr-saoma-l {
+    position: absolute;
+    top: 45px;
+    left: 115px;
+    width: 150px;
+    height: 150px;
+    z-index: 1;
+}
+
+.lr-saoma-r {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 146px;
+    height: 200px;
+    background: url(../img/lr-qrCode-help.png) no-repeat;
+    display: none;
+}
+
+.lr-app p {
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    margin-top: 5px;
+}
+
+.lr-app p span {
+    color: rgb(0, 125, 255);
+}
+
+
+/* 尾部 */
+
+.lr-login-footer {
+    height: 60px;
+    padding-top: 20px;
+    background-color: #EBEBEB;
+    text-align: center;
+}
+
+.lr-login-footer>div>p {
+    color: #A4A4A4;
+    margin-bottom: 10px;
+}
+
+.lr-login-footer>div>p>a {
+    display: inline-block;
+    height: 15px;
+    box-sizing: border-box;
+    margin: 0px 10px;
+}
+
+.lr-login-footer>div>p>a:hover {
+    color: #A4A4A4;
+    border-bottom: 1px solid #A4A4A4;
+}

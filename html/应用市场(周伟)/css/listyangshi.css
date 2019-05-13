@@ -1,0 +1,479 @@
+.list {
+  display: flex;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.list .gameList {
+  flex: 1;
+}
+.list .gameList .morename {
+  float: right;
+  margin: 8px 10px 20px 0;
+  color: #e6e6e6;
+}
+.list .gameList ul {
+  margin-right: 2px;
+  border-right: 1px solid #ccc;
+}
+.list .gameList ul li {
+  height: 30px;
+  line-height: 30px;
+  /* 文字内容的展示 */
+}
+.list .gameList ul li .gameContent {
+  display: flex;
+  /* 应用前的序号样式 */
+}
+.list .gameList ul li .gameContent .nameDo {
+  flex: 2;
+}
+.list .gameList ul li .gameContent .nameDo a {
+  font-size: 15px;
+  font-weight: 600;
+  color: #666;
+}
+.list .gameList ul li .gameContent .nameDo .downloadBtn {
+  background-position: right -303px;
+  padding-right: 10px;
+  margin-top: -5px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  color: #FFF;
+  display: block;
+  background: url(../img/download背景图.png) no-repeat;
+  background-size: 100% 100%;
+  height: 24px;
+  width: 70px;
+  line-height: 24px;
+  font-family: 微软雅黑;
+}
+.list .gameList ul li .gameContent img {
+  width: 48px;
+  height: 48px;
+  margin-right: 8px;
+}
+.list .gameList ul li .gameContent .listnum {
+  display: block;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  line-height: 16px;
+  color: #fff;
+  border-radius: 10%;
+  margin: 6px 16px 0 10px;
+  background-color: #28C0C6;
+}
+.list .gameList ul li .softwareName {
+  position: relative;
+  display: flex;
+}
+.list .gameList ul li .softwareName .listnum {
+  display: block;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  line-height: 16px;
+  color: #666;
+  border-radius: 10%;
+  margin: 6px 16px 0 10px;
+  background-color: #E6E6E6;
+}
+.list .gameList ul li .softwareName a {
+  font-weight: 300;
+  color: #666;
+  margin-left: -6px;
+}
+.list .gameList ul li .softwareName span {
+  position: absolute;
+  right: 0;
+  margin-right: 6px;
+  color: #7C7C7C;
+}
+.list .gameList ul li:nth-child(1) {
+  margin-bottom: 20px;
+}
+.list .gameList .gameTitle {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 12px 0;
+  text-align: center;
+}
+.list .appList {
+  flex: 1;
+}
+.list .appList .morename {
+  float: right;
+  margin: 8px 10px 20px 0;
+  color: #e6e6e6;
+}
+.list .appList ul {
+  margin-right: 2px;
+  border-right: 1px solid #ccc;
+}
+.list .appList ul li {
+  height: 30px;
+  line-height: 30px;
+  /* 文字内容的展示 */
+}
+.list .appList ul li .gameContent {
+  display: flex;
+  /* 应用前的序号样式 */
+}
+.list .appList ul li .gameContent .nameDo {
+  flex: 2;
+}
+.list .appList ul li .gameContent .nameDo a {
+  font-size: 15px;
+  font-weight: 600;
+  color: #666;
+}
+.list .appList ul li .gameContent .nameDo .downloadBtn {
+  background-position: right -303px;
+  padding-right: 10px;
+  margin-top: -5px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  color: #FFF;
+  display: block;
+  background: url(../img/download背景图.png) no-repeat;
+  background-size: 100% 100%;
+  height: 24px;
+  width: 70px;
+  line-height: 24px;
+  font-family: 微软雅黑;
+}
+.list .appList ul li .gameContent img {
+  width: 48px;
+  height: 48px;
+  margin-right: 8px;
+}
+.list .appList ul li .gameContent .listnum {
+  display: block;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  line-height: 16px;
+  color: #fff;
+  border-radius: 10%;
+  margin: 6px 16px 0 10px;
+  background-color: #28C0C6;
+}
+.list .appList ul li .softwareName {
+  position: relative;
+  display: flex;
+}
+.list .appList ul li .softwareName .listnum {
+  display: block;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  line-height: 16px;
+  color: #666;
+  border-radius: 10%;
+  margin: 6px 16px 0 10px;
+  background-color: #e6e6e6;
+}
+.list .appList ul li .softwareName a {
+  font-weight: 300;
+  color: #666;
+  margin-left: -6px;
+}
+.list .appList ul li .softwareName span {
+  position: absolute;
+  right: 0;
+  margin-right: 6px;
+  color: #7C7C7C;
+}
+.list .appList ul li:nth-child(1) {
+  margin-bottom: 20px;
+}
+.list .appList .gameTitle {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 12px 0;
+  text-align: center;
+}
+.list .newestList {
+  flex: 1;
+}
+.list .newestList .morename {
+  float: right;
+  margin: 8px 10px 20px 0;
+  color: #e6e6e6;
+}
+.list .newestList ul {
+  margin-right: 2px;
+  border-right: 1px solid #ccc;
+}
+.list .newestList ul li {
+  height: 30px;
+  line-height: 30px;
+  /* 文字内容的展示 */
+}
+.list .newestList ul li .gameContent {
+  display: flex;
+  /* 应用前的序号样式 */
+}
+.list .newestList ul li .gameContent .nameDo {
+  flex: 2;
+}
+.list .newestList ul li .gameContent .nameDo a {
+  font-size: 15px;
+  font-weight: 600;
+  color: #666;
+}
+.list .newestList ul li .gameContent .nameDo .downloadBtn {
+  background-position: right -303px;
+  padding-right: 10px;
+  margin-top: -5px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  color: #FFF;
+  display: block;
+  background: url(../img/download背景图.png) no-repeat;
+  background-size: 100% 100%;
+  height: 24px;
+  width: 70px;
+  line-height: 24px;
+  font-family: 微软雅黑;
+}
+.list .newestList ul li .gameContent img {
+  width: 48px;
+  height: 48px;
+  margin-right: 8px;
+}
+.list .newestList ul li .gameContent .listnum {
+  display: block;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  line-height: 16px;
+  color: #fff;
+  border-radius: 10%;
+  margin: 6px 16px 0 10px;
+  background-color: #28C0C6;
+}
+.list .newestList ul li .softwareName {
+  position: relative;
+  display: flex;
+}
+.list .newestList ul li .softwareName .listnum {
+  display: block;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  line-height: 16px;
+  color: #666;
+  border-radius: 10%;
+  margin: 6px 16px 0 10px;
+  background-color: #e6e6e6;
+}
+.list .newestList ul li .softwareName a {
+  font-weight: 300;
+  color: #666;
+  margin-left: -6px;
+}
+.list .newestList ul li .softwareName span {
+  position: absolute;
+  right: 0;
+  margin-right: 6px;
+  color: #7C7C7C;
+}
+.list .newestList ul li:nth-child(1) {
+  margin-bottom: 20px;
+}
+.list .newestList .gameTitle {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 12px 0;
+  text-align: center;
+}
+.list .riseList {
+  flex: 1;
+}
+.list .riseList .morename {
+  float: right;
+  margin: 8px 10px 20px 0;
+  color: #e6e6e6;
+}
+.list .riseList li {
+  height: 30px;
+  line-height: 30px;
+  /* 文字内容的展示 */
+}
+.list .riseList li .gameContent {
+  display: flex;
+  /* 应用前的序号样式 */
+}
+.list .riseList li .gameContent .nameDo {
+  flex: 2;
+}
+.list .riseList li .gameContent .nameDo a {
+  font-size: 15px;
+  font-weight: 600;
+  color: #666;
+}
+.list .riseList li .gameContent .nameDo .downloadBtn {
+  background-position: right -303px;
+  padding-right: 10px;
+  margin-top: -5px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  color: #FFF;
+  display: block;
+  background: url(../img/download背景图.png) no-repeat;
+  background-size: 100% 100%;
+  height: 24px;
+  width: 70px;
+  line-height: 24px;
+  font-family: 微软雅黑;
+}
+.list .riseList li .gameContent img {
+  width: 48px;
+  height: 48px;
+  margin-right: 8px;
+}
+.list .riseList li .gameContent .listnum {
+  display: block;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  line-height: 16px;
+  color: #fff;
+  border-radius: 10%;
+  margin: 6px 16px 0 10px;
+  background-color: #28C0C6;
+}
+.list .riseList li .softwareName {
+  position: relative;
+  display: flex;
+}
+.list .riseList li .softwareName .listnum {
+  display: block;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  line-height: 16px;
+  color: #666;
+  border-radius: 10%;
+  margin: 6px 16px 0 10px;
+  background-color: #e6e6e6;
+}
+.list .riseList li .softwareName a {
+  font-weight: 300;
+  color: #666;
+  margin-left: -6px;
+}
+.list .riseList li .softwareName span {
+  position: absolute;
+  right: 0;
+  margin-right: 6px;
+  color: #7C7C7C;
+}
+.list .riseList li:nth-child(1) {
+  margin-bottom: 20px;
+}
+.list .riseList .gameTitle {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 12px 0;
+  text-align: center;
+}
+.list .newestList {
+  flex: 1;
+}
+.list .newestList .morename {
+  float: right;
+  margin: 8px 10px 20px 0;
+  color: #e6e6e6;
+}
+.list .newestList li {
+  height: 30px;
+  line-height: 30px;
+  /* 文字内容的展示 */
+}
+.list .newestList li .gameContent {
+  display: flex;
+  /* 应用前的序号样式 */
+}
+.list .newestList li .gameContent .nameDo {
+  flex: 2;
+}
+.list .newestList li .gameContent .nameDo a {
+  font-size: 15px;
+  font-weight: 600;
+  color: #666;
+}
+.list .newestList li .gameContent .nameDo .downloadBtn {
+  background-position: right -303px;
+  padding-right: 10px;
+  margin-top: -5px;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  color: #FFF;
+  display: block;
+  background: url(../img/download背景图.png) no-repeat;
+  background-size: 100% 100%;
+  height: 24px;
+  width: 70px;
+  line-height: 24px;
+  font-family: 微软雅黑;
+}
+.list .newestList li .gameContent img {
+  width: 48px;
+  height: 48px;
+  margin-right: 8px;
+}
+.list .newestList li .gameContent .listnum {
+  display: block;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  line-height: 16px;
+  color: #fff;
+  border-radius: 10%;
+  margin: 6px 16px 0 10px;
+  background-color: #e6e6e6;
+}
+.list .newestList li .softwareName {
+  position: relative;
+  display: flex;
+}
+.list .newestList li .softwareName .listnum {
+  display: block;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  line-height: 16px;
+  color: #fff;
+  border-radius: 10%;
+  margin: 6px 16px 0 10px;
+  background-color: #e6e6e6;
+}
+.list .newestList li .softwareName a {
+  font-weight: 300;
+  color: #666;
+  margin-left: -6px;
+}
+.list .newestList li .softwareName span {
+  position: absolute;
+  right: 0;
+  margin-right: 6px;
+  color: #7C7C7C;
+}
+.list .newestList li:nth-child(1) {
+  margin-bottom: 20px;
+}
+.list .newestList .gameTitle {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 12px 0;
+  text-align: center;
+}

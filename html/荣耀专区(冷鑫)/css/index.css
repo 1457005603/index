@@ -1,0 +1,488 @@
+      body {
+          height: 4000px;
+      }
+      
+      .advertising {
+          position: relative;
+          width: 100%;
+          height: 90px;
+          overflow: hidden;
+      }
+      
+      .advertising img {
+          position: absolute;
+          overflow: hidden;
+          left: 50%;
+          margin-left: -960px;
+          overflow: hidden;
+          width: 1920px;
+          /* height: 100%; */
+      }
+      
+      .title_dw {
+          position: relative;
+      }
+      
+      .header {
+          background-color: #fff;
+          height: 74px;
+          width: 100%;
+      }
+      
+      .ry_logo {
+          float: left;
+          width: 240px;
+          height: 50px;
+          padding: 10px 0;
+          margin-right: 20px;
+      }
+      
+      .ry_logo img {
+          width: 106;
+          height: 36px;
+      }
+      
+      .ry_logo em {
+          display: inline-block;
+          width: 15px;
+          height: 15px;
+          font-size: 15px;
+          text-align: center;
+          padding-top: 20px
+      }
+      
+      .ry_tab {
+          /* overflow: hidden; */
+          width: 100%;
+          /* position: relative; */
+          padding-left: 20px;
+      }
+      
+      .ry_tab li:hover .ry_box {
+          display: block;
+          transition: all 1s;
+          z-index: 1;
+      }
+      
+      .ry_tab a:hover {
+          color: #00b5e2;
+          border-bottom: 2px solid #00b5e2;
+      }
+      
+      .ry_tab li {
+          float: left;
+          height: 100%;
+          padding: 17px;
+          /* height: 40px; */
+          /* margin-left: 15px; */
+          font-size: 16px;
+      }
+      
+      .ry_tab li a {
+          display: inline-block;
+          color: #585353;
+          line-height: 40px;
+          text-align: center;
+      }
+      
+      .ry_ipt {
+          position: relative;
+      }
+      
+      .ry_ipt input {
+          float: right;
+          margin: 22px 35px 0 0;
+          width: 320px;
+          height: 30px;
+          border: none;
+          border-radius: 15px;
+          padding-left: 20px;
+          background-color: #f5f5f5
+      }
+      
+      .ry_sousou {
+          font-family: "icomoon";
+          position: absolute;
+          text-align: center;
+          line-height: 33px;
+          right: 36px;
+          top: 23px;
+          width: 30px;
+          height: 30px;
+          border-radius: 15px;
+          background-color: #666;
+          color: #fff
+      }
+      
+      .ry-links {
+          position: absolute;
+          right: 80px;
+          top: 29px;
+      }
+      
+      .ry-links a {
+          color: #A4A4A4;
+      }
+      
+      .ry-links :nth-child(1) {
+          padding-right: 15px;
+      }
+      
+      .ry_box {
+          /* position: relative; */
+          display: none;
+          position: absolute;
+          z-index: 99;
+          left: 0;
+          top: 72px;
+          background: #fff;
+          height: 250px;
+      }
+      
+      .ry_box .ry_boxt {
+          position: absolute;
+          cursor: pointer;
+          left: 0px;
+          top: 0;
+          height: 50px;
+          width: 100%;
+          /* margin: 0!important; */
+          /* background: red; */
+          font-size: 14px;
+          /* padding-left: 10px; */
+          z-index: 999;
+      }
+      
+      .ry_boxt a {
+          margin: 0 20px !important;
+      }
+      
+      .ry_boxt :nth-child(1) {
+          color: #2d2828;
+      }
+      
+      .ry_boxt a:hover {
+          border: 0;
+      }
+      
+      .ry_boxb {
+          position: absolute;
+          top: 50px;
+          left: 0;
+          float: left;
+          width: 100%;
+          height: 150px;
+          cursor: pointer;
+          /* background-color: #ccc; */
+      }
+      
+      .ry_boxb .ry_a {
+          float: left;
+          width: 150px;
+          height: 170px;
+          margin-left: 20px;
+      }
+      
+      .ry_boxb img {
+          width: 120px;
+          height: 120px;
+          margin-left: 15px;
+          margin-bottom: 10px
+      }
+      
+      .ry_a p {
+          text-align: center;
+      }
+      
+      .ry_red {
+          color: red
+      }
+      
+      .ry_boxb .ry_a:hover {
+          color: #00b5e2;
+      }
+      /* 轮播图  */
+      
+      .focus {
+          position: absolute;
+          left: 50%;
+          margin-left: -960px;
+          overflow: hidden;
+          width: 1920px;
+          height: 440px;
+          margin-top: 5px
+      }
+      
+      .focus ul {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 900%;
+          height: 440px;
+      }
+      
+      .focus ul li {
+          float: left;
+      }
+      /* 购物车 */
+      
+      .shortcut .fr>div:last-child em {
+          display: inline-block;
+          margin-top: 10px;
+          width: 13px;
+          height: 14px;
+          background-image: url(../img/精灵图.png);
+          background-position: -1px 0;
+      }
+      
+      .shortcut .fr>div:last-child div {
+          display: none;
+          position: absolute;
+          right: 0;
+          top: 36px;
+          width: 447px;
+          height: 175px;
+          background-color: #fff;
+          border-radius: 8px;
+          border-top-right-radius: 0;
+          box-shadow: 0 5px 5px rgba(0, 0, 0, .4);
+          z-index: 999;
+      }
+      
+      .shortcut .fr>div:last-child div span.car-logo {
+          position: absolute;
+          display: block;
+          left: 173px;
+          top: 20px;
+          width: 100px;
+          height: 100px;
+          background-image: url(../img/精灵图.png);
+          background-position: 0 -165px;
+      }
+      
+      .shortcut .fr>div:last-child div p {
+          position: absolute;
+          left: 110px;
+          top: 123px;
+          font-size: 16px;
+          color: #ababab;
+      }
+      
+      .shortcut .fr>div:last-child:hover div {
+          display: block;
+      }
+      
+      .focus {
+          position: relative;
+      }
+      
+      .circle {
+          position: absolute;
+          top: 400px;
+          left: 350px;
+      }
+      
+      .circle li {
+          float: left;
+          width: 8px;
+          height: 8px;
+          /*background-color: #fff;*/
+          border: 2px solid rgba(255, 255, 255, 0.5);
+          margin: 0 3px;
+          border-radius: 50%;
+          /*鼠标经过显示小手*/
+          cursor: pointer;
+      }
+      
+      .current {
+          background-color: #fff;
+      }
+      
+      .ry_volume {
+          position: relative;
+          height: 95px;
+          margin-top: 50px;
+          margin-bottom: 15px;
+          /* background-color: #ccc; */
+      }
+      
+      .volume_t {
+          width: 30px;
+          margin: auto;
+          border-bottom: 5px solid #900;
+      }
+      
+      .volume_b {
+          width: 200px;
+          margin: auto;
+          margin-top: 5px;
+      }
+      
+      .volume_b h3 {
+          text-align: center;
+          font-size: 30px;
+          font-weight: normal;
+          color: #333;
+      }
+      
+      .exhibition {
+          height: 480px;
+          margin-top: 10px;
+          /* background-color: #ccc; */
+      }
+      
+      .exhibition_t {
+          height: 280px;
+      }
+      
+      .exhibition_b {
+          height: 190px;
+          margin-top: 10px;
+      }
+      /* .volume_s {
+          margin-bottom: 10px;
+      } */
+      
+      .volume_s ul {
+          height: 36px;
+          text-align: center;
+      }
+      
+      .volume_s li {
+          display: inline-block;
+          line-height: 34px;
+          padding: 10px
+      }
+      
+      .volume_s li a {
+          font-size: 14px;
+          color: #666;
+      }
+      
+      .ry_more {
+          position: absolute;
+          right: 0;
+          top: 50px;
+      }
+      
+      .ry_more a {
+          display: inline-block;
+          width: 68px;
+          height: 29px;
+          line-height: 29px;
+          text-align: center;
+          border: 1px solid #666;
+          color: #3a3a3a;
+      }
+      
+      .ry_more a:hover {
+          color: #900;
+          border: 1px solid #900;
+      }
+      /* 荣耀手机 */
+      
+      .ry_phone img:hover {
+          margin: 0 2px;
+          box-shadow: 3px 3px 3px rgba(146, 125, 125, 0.3)
+      }
+      
+      .ry_phone {
+          overflow: hidden;
+          height: 604px;
+      }
+      
+      .ry_phone_l {
+          position: relative;
+          float: left;
+          width: 291px;
+          height: 592px;
+      }
+      
+      .ry_phone_t {
+          position: relative;
+          float: left;
+          width: 594px;
+          height: 290px;
+          margin: 0 12px;
+      }
+      
+      .ry_phone_r,
+      .ry_phone_b,
+      .ry_phone_bc,
+      .ry_phone_br {
+          position: relative;
+          float: left;
+          width: 291px;
+          height: 290px;
+      }
+      
+      .ry_phone_b,
+      .ry_phone_bc,
+      .ry_phone_br {
+          margin-top: 10px;
+          margin-left: 12px;
+      }
+      
+      .ry_phone_p {
+          position: absolute;
+          top: 15px;
+          left: 25px;
+          color: #333;
+      }
+      
+      .ry_phone_p p {
+          margin: 8px 0;
+          font-size: 18px;
+          font-weight: 600;
+      }
+      
+      .overbar {
+          width: 30px;
+          border-bottom: 3px solid #900;
+      }
+      
+      .ry_phone_l .ry_phone_p {
+          color: #fff;
+      }
+      
+      .black {
+          color: #333!important;
+      }
+      /* 炫彩配件 */
+      
+      .shoubiao {
+          margin-top: 10px;
+      }
+      
+      .ry_youhui {
+          margin-top: 10px;
+          height: 120px;
+      }
+      
+      .ry_cebian {
+          position: fixed;
+          right: 50%;
+          margin-right: -669px;
+          bottom: 100px;
+          width: 60px;
+          /* height: 100px; */
+          z-index: 100;
+          /* background-color: #fff; */
+      }
+      
+      .ry_cebian li {
+          height: 30px;
+          line-height: 30px;
+          width: 100%;
+          border-bottom: 1px solid #ccc;
+      }
+      
+      .ry_cebian_tou {
+          background: #00b5e2;
+          height: 5px;
+      }
+      
+      .ry_cebian li a {
+          font-size: 14px;
+          color: #666;
+      }

@@ -1,0 +1,483 @@
+.page_w
+{
+    width: 960px;
+    margin: 0 auto;
+}
+body{
+    background: #F2F2F2!important;
+}
+.header
+{
+    height: 67px;
+    width: 100%;
+    background-color: #333;
+    .header_content
+    {
+      font-size: 18px;
+      font-weight: 500;
+      color: aliceblue;
+      line-height: 67px;
+    }
+    .homeName
+    {
+        margin-left: 12px;
+        vertical-align: middle;
+        em{
+           margin-right: 12px;
+           font-weight: 200;
+           color: #ccc;
+        }
+    }
+}
+.main_content
+{
+    position: relative;
+    font-size: 14px;
+    margin-top: 65px;
+    background: #fff;
+    padding: 30px 270px;
+    
+    .logonmode
+    {
+        .telLogon,
+        .emailLogon
+        {
+            position: absolute;
+            top:-40px;
+            left: 0;
+            display: inline-block;
+            padding: 6px 28px;
+            color: #f2f2f2;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            i{
+                font-size: 20px;
+                margin:0 6px 0 -2px;
+            }
+        }
+        .telLogon
+        {
+            background-color: #B40707;
+        }
+        .emailLogon
+        {
+            position: absolute;
+            top:-40px;
+            left: 150px;
+            background-color: #ccc;
+        }
+        .accounted
+        {
+            position: absolute;
+            top:-25px;
+            right: 0;
+            color: #333;
+            em{
+                color: cadetblue;
+                cursor: pointer;
+            }
+            em:hover
+            {
+                color: rgba(95,158,160,.6);
+            }
+        }
+    }
+    .logonlist
+    {
+        padding-bottom: 100px;
+        //国家地区选择开始
+        .nation
+        {
+            display: flex;
+            margin-top: 20px;
+            background: #f7f7f7;
+            height: 42px;
+            line-height: 42px;
+            border: 1px solid #d9d9d9;
+            border-radius: 21px;
+            position: relative;
+            .nationTitle
+            {
+               text-align: center;
+               border-right: 1px solid #ccc;
+               flex: 1;
+            }
+            .nationchoose
+            {
+                height: 42px;
+                border-radius: 5px;
+                margin: 0 auto;
+                position: relative;      
+                 flex: 2;
+                 .select2-selection__rendered{
+                    text-align: center;
+                }
+            
+            }
+        }  
+         //国家地区选择结束
+        //  填写手机号开始
+        .areaTel
+        {
+            display: flex;
+            margin-top: 14px;
+            background: #f7f7f7;
+            height: 42px;
+            line-height: 42px;
+            border: 1px solid #d9d9d9;
+            border-radius: 21px;
+            position: relative;
+            .areatitle
+            {
+               text-align: center;
+               border-right: 1px solid #ccc;
+               flex: 1;
+               .select2
+               {
+                   width: 140px!important;
+                   b{
+                    margin-left: -18px;
+                   }
+                   .f32 
+                   {
+                       background:url("");
+                       width: 0;
+                       height: 0;
+                   }
+               }
+               
+            }
+          
+            .telfillin
+            {
+               flex: 2;
+               .telinput
+               {
+                   position: relative;
+                   top: -2px;
+                   display: inline-block;
+                   height: 36px;
+                   width: 258px;
+                   padding-left: 12px;
+                   color: #333;
+                   font-size: 14px;
+                   line-height: 36px;
+                   background: #f7f7f7;
+                   outline: none;
+                   border: none;
+               }
+               .tureTel,
+               .errorTel
+               {
+                   position: relative;
+                   top:-43px;
+                   right: -280px;
+                   display: inline-block;
+                   img{
+                       width: 35px;
+                       height: 35px;
+                   }
+                   i{
+                       color: cornflowerblue;
+                       margin-left: -5px;
+                       vertical-align: middle;
+                   }
+               }
+            }
+        }  
+         //  填写手机号结束
+         //滑动校验开始
+         .act 
+         {
+            span{
+              padding:0 36px 0 0;
+              color: green;
+            }
+            .inner
+            {
+                z-index: 1000;
+            }    
+         }
+         .sliderCheck
+         {
+             display: flex;
+             margin-top: 30px;
+             background: #f7f7f7;
+             height: 42px;
+             line-height: 42px;
+             border: 1px solid #d9d9d9;
+             border-radius: 21px;
+             position: relative;
+            .outer
+            {
+                position: relative;
+                left: 22px;
+                width: 370px;
+                height: 40px;
+                line-height: 40px;
+                background: #f7f7f7;  
+                span{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    display: block;
+                    padding:0  0 0 36px;
+                    width: 100%;
+                    height: 100%;
+                    color: #26BCD5;
+                    text-align: center;
+                    z-index: 9;
+                }
+                .filter-box{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 0;
+                    height: 100%;
+                    background: #E1E9DC;
+                    z-index: 9;
+                }
+                .inner{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 36px;
+                    height: 40px;
+                    text-align: center;
+                    background: #fff;
+                    cursor: pointer;
+                    font-family: "宋体";
+                    z-index: 10;
+                    font-weight: bold;
+                    color: #929292;
+                    box-shadow: 1px 0px rgba(204,204,204,0.5);
+                    img{
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+            }
+         }  
+         //滑动校验结束
+        //  短信验证码开始
+        .note
+        {
+            display: flex;
+            margin-top: 20px;
+            background: #f7f7f7;
+            height: 42px;
+            line-height: 42px;
+            border: 1px solid #d9d9d9;
+            border-radius: 21px;
+            position: relative;
+            .noteTitle
+            {
+               text-align: center;
+               border-right: 1px solid #ccc;
+               flex: 1;
+            }
+            .notechoose
+            {
+                height: 42px;
+                border-radius: 5px;
+                margin: 0 auto;
+                position: relative;      
+                flex: 2;
+              .authcode
+              {
+                  position: relative;
+                  top: -2px;
+                  left:18px;
+                 display:inline-block;
+                 height: 36px;
+                 background-color: #f7f7f7; 
+                 outline: none;
+                 border: none;
+              }
+              .reacquirecode
+              {
+                  position: relative;
+                  top:0px;
+                  right: -8px;
+                  height: 36px;
+                  width: 80px;
+                  color: #007DFF;
+                  outline: none;
+                  border: none;
+                  background-color: #f7f7f7;
+              }
+            }
+        }  
+        // 短信验证码结束
+        // 密码输入开始 
+        .passwordbox
+        {
+            display: flex;
+            margin-top: 40px;
+            background: #f7f7f7;
+            height: 42px;
+            line-height: 42px;
+            border: 1px solid #d9d9d9;
+            border-radius: 21px;
+            position: relative;
+            .passTitle
+            {
+               text-align: center;
+               border-right: 1px solid #ccc;
+            //    letter-spacing: 10px;
+               flex: 1;
+            }
+            .passwordtext
+            {
+                height: 42px;
+                border-radius: 5px;
+                margin: 0 auto;
+                position: relative;      
+                 flex: 2;
+                .onepass
+                {
+                    position: relative;
+                    top: -2px;
+                    left:18px;
+                   display:inline-block;
+                   height: 36px;
+                   background-color: #f7f7f7; 
+                   outline: none;
+                   border: none;
+                }
+               
+            
+            }
+        }  
+        // 密码输入结束
+        // 验证密码开始
+        .twicepass
+        {
+            display: flex;
+            margin-top: 20px;
+            background: #f7f7f7;
+            height: 42px;
+            line-height: 42px;
+            border: 1px solid #d9d9d9;
+            border-radius: 21px;
+            position: relative;
+            .twicepassTitle
+            {
+               text-align: center;
+               border-right: 1px solid #ccc;
+            //    letter-spacing: 10px;
+               flex: 1;
+            }
+            .twicepasstext
+            {
+                height: 42px;
+                border-radius: 5px;
+                margin: 0 auto;
+                position: relative;      
+                 flex: 2;
+                .twopass
+                {
+                    position: relative;
+                    top: -2px;
+                    left:18px;
+                   display:inline-block;
+                   height: 36px;
+                   background-color: #f7f7f7; 
+                   outline: none;
+                   border: none;
+                }
+                .turepass,
+                .errorpass,
+                .nullpass
+                {
+                    position: relative;
+                    top:-43px;
+                    right: -280px;
+                    display: inline-block;
+                    img{
+                        width: 35px;
+                        height: 35px;
+                    }
+                    i{
+                        color: cornflowerblue;
+                        margin-left: -5px;
+                        vertical-align: middle;
+                    }
+                }
+            
+            }
+        }  
+        // 验证密码结束 
+        //日期选择
+        .dateSelection
+        {
+            display: flex;
+            margin-top: 40px;
+            background: #f7f7f7;
+            height: 42px;
+            line-height: 42px;
+            border: 1px solid #d9d9d9;
+            border-radius: 21px;
+            position: relative;
+            .dateTitle
+            {
+               text-align: center;
+               border-right: 1px solid #ccc;
+               flex: 1;
+            }
+            .datechoose
+            {
+                height: 42px;
+                border-radius: 5px;
+                margin: 0 auto;
+                position: relative;      
+                 flex: 2;
+                font-size: 20px;
+                color: rgba(0, 123, 255, 0.534);
+                text-align: center;
+                left: -60px;
+            }
+        }  
+        //日期选择结束
+        .logonbtn
+        {
+            position: relative;
+            top:40px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 110px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: 500;
+            color: #f7f7f7;
+            background-color: #C70000;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+    }
+    
+}
+ //  填写手机号前面区号部分
+.select2-container--open .select2-dropdown
+{
+    left: 4px;
+    top:-1px;
+    .select2-results
+    {
+        li
+        {
+            .f32
+            {
+                background:url(""); 
+                width: 0;
+                height: 0;
+            }
+        }
+    }
+}
+ //  填写手机号前面区号部分
+
+

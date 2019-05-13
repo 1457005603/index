@@ -1,0 +1,144 @@
+$(function() {
+    $(".gameList li").mouseenter(function() {
+        $(this).find(".gameContent").show().siblings(".softwareName").hide();
+        $(this).siblings("li").find(".gameContent").hide().siblings(".softwareName").show();
+        $(this).css("margin-bottom", 20);
+        $(".gameList li:nth-child(1)").css("margin-bottom", 0);
+    });
+    $(".gameList li").mouseleave(function() {
+        $(this).find(".gameContent").hide().siblings(".softwareName").show();
+;        $(".gameList li:nth-child(1)").find(".gameContent").show().siblings(".softwareName").hide();
+        $(this).css("margin-bottom", 0);
+        $(".gameList li:nth-child(1)").css("margin-bottom", 20);
+    });
+
+    $(".gameList li:nth-child(1)").on("mouseenter mouseleave", function() {
+        $(".gameList li:nth-child(1)").css("margin-bottom", 20);
+    });
+});
+
+
+
+
+
+
+
+
+
+
+  排行榜分界线
+    
+    .list {
+        display: flex;
+        margin-bottom: 20px;
+        background-color: #fff;
+    }
+    
+    .gameList {
+        flex: 1;
+    }
+    
+    .gameList li {
+        height: 30px;
+        line-height: 30px;
+        margin-bottom: 14px;
+    }
+    
+    .gameList li:nth-child(1) {
+        margin-bottom: 20px;
+    }
+    
+    .gameTitle {
+        font-size: 16px;
+        font-weight: 500;
+        margin: 12px 0;
+        text-align: center;
+    }
+    
+    .gameContent {
+        display: flex;
+    }
+    
+    .gameContent .nameDo {
+        flex: 2;
+    }
+    
+    .gameContent .nameDo a {
+        font-size: 15px;
+        font-weight: 600;
+        color: #666;
+    }
+    
+    .gameContent img {
+        width: 48px;
+        height: 48px;
+        margin-right: 8px;
+    }
+    应用前的序号样式
+    
+    .listnum {
+        display: block;
+        width: 16px;
+        height: 16px;
+        text-align: center;
+        line-height: 16px;
+        color: #fff;
+        border-radius: 10%;
+        margin: 6px 16px 0 10px;
+        background-color: #28C0C6;
+    }
+     /* 文字内容的展示 */
+    
+    .softwareName {
+        display: flex;
+    }
+    
+    .softwareName a {
+        font-weight: 300;
+        color: #666;
+        margin-left: -6px;
+    }
+    
+    .softwareName span {
+        color: #7C7C7C;
+        margin-left: 100px;
+    }
+    
+    .gameList .morename {
+        float: right;
+        margin: 8px 10px 20px 0;
+        color: #28C0C6;
+    }
+    /* 下载按钮的样式 */
+    
+    .downloadBtn {
+        background-position: right -303px;
+        padding-right: 10px;
+        margin-top: -5px;
+        font-size: 12px;
+        font-weight: bold;
+        text-align: center;
+        color: #FFF;
+        display: block;
+        background: url(../img/download背景图.png) no-repeat;
+        background-size: 100% 100%;
+        height: 24px;
+        width: 70px;
+        line-height: 24px;
+        font-family: 微软雅黑;
+    }
+    
+    .appList {
+        background-color: #66a;
+        flex: 1;
+    }
+    
+    .newestList {
+        background-color: #65d;
+        flex: 1;
+    }
+    
+    .riseList {
+        background-color: #978;
+        flex: 1;
+    } 

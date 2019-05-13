@@ -1,0 +1,261 @@
+    .body {
+        position: relative;
+    }
+    
+    .zw-special {
+        width: 962px;
+        height: 2252px;
+        margin: 0 auto;
+        /* background-color: skyblue; */
+    }
+    
+    .s-recommend {
+        width: 962px;
+        height: 325px;
+        /* background-color: red; */
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+    
+    .special-tu {
+        position: relative;
+        float: left;
+        width: 606px;
+        height: 323px;
+        /* background-color: green; */
+        border-right: 1px dashed #ccc;
+    }
+    
+    .beijingtu {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: block;
+        width: 52px;
+        height: 70px;
+        background-color: red;
+        background: url(../img/背景1.png) no-repeat -346px -183px;
+        z-index: 999;
+    }
+    
+    .zwbox {
+        position: relative;
+        float: left;
+        width: 330px;
+        height: 276px;
+        /* background-color: blue; */
+    }
+    
+    .lipin {
+        width: 310px;
+        height: 100%;
+        /* background-color: pink; */
+    }
+    
+    .suiyue {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        display: block;
+        font-size: 14px;
+        font-weight: bold;
+        color: #666!important;
+    }
+    
+    .suiyue1 {
+        position: absolute;
+        top: 50px;
+        left: 20px;
+        display: block;
+        font-size: 12px;
+    }
+    
+    .suiyue2 {
+        position: absolute;
+        top: 75px;
+        left: 20px;
+        display: block;
+        font-size: 12px;
+        color: #ccc;
+    }
+    
+    .suiyuetu {
+        position: absolute;
+        bottom: 5px;
+        left: 2px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 305px;
+        height: 144px;
+    }
+    
+    .suiyuetu a {
+        padding-right: 5px;
+        float: left;
+        display: block;
+        width: 60px;
+        height: 48px;
+        padding-left: 8px;
+        flex: 1;
+    }
+    
+    .more1 {
+        position: absolute;
+        top: 72px;
+        right: -12px;
+        display: block;
+        margin-right: 12px;
+        background-color: #3BABE8;
+        text-align: center;
+        line-height: 48px;
+        font-size: 13px;
+        font-weight: bold;
+        color: #fff;
+        width: 48px!important;
+        height: 48px;
+        border-radius: 5px;
+    }
+    
+    .suiyuetu img {
+        width: 48px;
+        height: 48px;
+        display: block;
+        margin-left: 5px;
+    }
+    /* 电梯导航 */
+    
+    .elevator {
+        position: fixed;
+        top: 127px;
+        right: 0;
+        width: 50px;
+        height: 50px;
+        display: none;
+    }
+    
+    .elevator img {
+        display: block;
+        margin-top: -33px;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .elevator ul li {
+        padding-top: 35px;
+        height: 40px;
+        text-align: center;
+    }
+    /* 电梯结束 */
+    
+    .special-tu li {
+        width: 283px;
+        height: 145px;
+    }
+    
+    .special-tu img {
+        padding-top: 10px;
+        margin-left: 10px;
+        /* vertical-align: middle; */
+        display: block;
+        width: 283px;
+        height: 145px;
+    }
+    
+    .special-tu a {
+        display: block;
+        float: left;
+    }
+    
+    .more-su {
+        position: relative;
+        width: 962px;
+        height: 1900px;
+        background-color: #f7f7f7;
+        border-radius: 0 0 5px 5px;
+    }
+    
+    .zwmore {
+        width: 714px;
+        height: 45px;
+        background-color: #fff;
+        color: #24B9BF;
+        border-radius: 5px 5px 0 0;
+    }
+    
+    .gengduo {
+        display: inline-block;
+        font-size: 18px;
+        padding-top: 8px;
+        padding-left: 20px;
+    }
+    
+    .zw-zc {
+        width: 714px;
+        height: 226px;
+        background-color: #fff;
+        border-bottom: 1px dashed #ccc;
+        overflow: hidden;
+    }
+    
+    .zw-tupian {
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 310px;
+        height: 149px;
+    }
+    
+    .zwjieshao {
+        position: relative;
+        margin-top: -150px;
+        margin-left: 330px;
+        width: 360px;
+        height: 165px;
+    }
+    
+    .chess {
+        display: block;
+        height: 24px;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    
+    .zwjieshao p {
+        color: #333!important;
+    }
+    
+    .zwdate {
+        color: #7c7c7c!important;
+        line-height: 24px;
+        padding-top: 5px;
+    }
+    
+    .app-chess {
+        display: flex;
+        height: 50px;
+        width: 300px;
+    }
+    
+    .app-chess img {
+        padding-left: 5px;
+        display: block;
+        float: left;
+        width: 48px;
+        height: 48px;
+    }
+    
+    .app-chess a {
+        flex: 1;
+        display: block;
+    }
+    
+    .moreduo {
+        position: absolute;
+        top: 135px;
+        right: 10px;
+        display: block;
+    }
+    
+    .moreduo a {
+        color: #24b9bf;
+    }

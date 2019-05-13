@@ -1,0 +1,507 @@
+/* 顶部广告 */
+
+.top-banner-img {
+    width: 100%;
+    height: 90px;
+    margin: auto;
+    background-image: url(../upload/顶部广告.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.top-banner-img div.w {
+    position: relative;
+}
+
+.top-banner-img a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.top-banner-img .w span {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background-color: #BBC2C9;
+    z-index: 999;
+    font-family: "icomoon";
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+/* 热门板块 */
+
+.hot-board {
+    position: relative;
+    width: 100%;
+    height: 450px;
+}
+
+.hot-board div.w {
+    position: relative;
+    height: 450px;
+}
+
+
+/* 左侧导航栏 */
+
+.focus-nav {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 444px;
+    margin-top: 25px;
+    z-index: 99;
+    border-radius: 15px;
+    display: none;
+}
+
+.focus-nav ul li {
+    width: 150px;
+    height: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #FEFEFE;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.focus-nav ul li p {
+    height: 50%;
+    width: 100%;
+}
+
+.focus-nav ul li p a {
+    margin-right: 5px;
+}
+
+.focus-nav ul li p:first-child {
+    font-size: 16px;
+}
+
+.focus-nav ul li p:first-child a {
+    color: #848484;
+}
+
+.focus-nav ul li p:last-child {
+    font-size: 14px;
+}
+
+.focus-nav ul li:last-child p:last-child {
+    border: 0;
+}
+
+
+/* 左侧导航栏hover效果 */
+
+.focus-nav ul li p:first-child a:hover {
+    color: #CA151D;
+}
+
+.focus-nav ul li:hover {
+    background-color: #fff;
+}
+
+
+/* 左右按钮 */
+
+.hot-board div.w span {
+    width: 56px;
+    height: 56px;
+    background-image: url(../img/精灵图.png);
+    display: none;
+}
+
+.hot-board div.w .left-button {
+    position: absolute;
+    left: 215px;
+    top: 215px;
+    background-position: -352px -12px;
+    display: none;
+}
+
+.hot-board div.w .right-button {
+    position: absolute;
+    right: 0px;
+    top: 215px;
+    background-position: -112px -12px;
+    display: none;
+}
+
+.hot-board div.w .left-button:hover {
+    cursor: pointer;
+    background-position: -272px -12px;
+    display: none;
+}
+
+.hot-board div.w .right-button:hover {
+    cursor: pointer;
+    background-position: -192px -12px;
+    display: none;
+}
+
+
+/* 轮播图小圆圈 */
+
+.focus-circle {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 30px;
+    /* width: 160px; */
+    height: 15px;
+}
+
+.focus-circle li {
+    float: left;
+    width: 12px;
+    height: 12px;
+    margin-left: 8px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.focus-circle-current {
+    background-color: #fff;
+}
+
+
+/* 焦点轮播图 */
+
+.focus {
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    margin-left: -960px;
+    width: 1920px;
+    height: 450px;
+    background-color: #fff;
+}
+
+.focus ul {
+    position: absolute;
+    left: 0;
+    width: 1200%;
+    height: 450px;
+}
+
+.focus ul li {
+    width: 1920px;
+    height: 450px;
+    float: left;
+}
+
+
+/* 华为精品开]始 */
+
+.Boutique-wlm {
+    width: 100%;
+    height: 60px;
+}
+
+.Boutique {
+    position: relative;
+    width: 100%;
+}
+
+.Boutique-to {
+    /* height: 70px; */
+}
+
+.Boutique-top h2 {
+    font-size: 30px;
+    line-height: 54px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.Boutique-top::before {
+    content: "";
+    display: block;
+    width: 24px;
+    height: 4px;
+    background-color: #900;
+    margin: 0 auto;
+}
+
+.Boutique-bottom-left {
+    width: 100%;
+    /* height: 500px; */
+    border-top: 1px solid #E9E9E9;
+    border-bottom: 1px solid #E9E9E9;
+}
+
+.Boutique-bottom-left {
+    margin-bottom: 20px;
+}
+
+.Boutique-bottom-left li {
+    position: relative;
+    display: inline-block;
+    float: left;
+    width: 299px;
+    height: 276px;
+    border-left: 1px solid #E9E9E9;
+    overflow: hidden;
+}
+
+.box-wlm {
+    position: absolute;
+    left: -100%;
+    top: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #A80000;
+}
+
+.Boutique-bottom-left li img {
+    width: 100%;
+    /* display: inline-block; */
+}
+
+.Boutique-bottom-right {
+    width: 1221px;
+    margin-left: -21px;
+}
+
+.Boutique-bottom-right li {
+    position: relative;
+    display: inline-block;
+    float: left;
+    width: 386px;
+    height: 190px;
+    margin-left: 21px;
+}
+
+.Boutique-bottom-right li:hover .Boutique-bottom-right-beizhu {
+    background-color: #B42E2E;
+}
+
+.Boutique-bottom-right-beizhu {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 164px;
+    height: 160px;
+    color: #fff;
+    padding: 30px 10px 0 16px;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.Boutique-bottom-right-mz {
+    font-size: 18px;
+}
+
+.grid-desc {
+    margin: 10px 0 20px 0;
+}
+
+.grid-price {
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+}
+
+.grid-price::before {
+    content: "";
+    display: block;
+    width: 24px;
+    height: 2px;
+    background-color: #fff;
+}
+
+
+/* 华为精品结束 */
+
+
+/* 手机开始 */
+
+.w-header {
+    /* position: relative; */
+    height: 30px;
+    /* background-color: pink; */
+}
+
+.Boutique-top-header {
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    /* text-align: center; */
+}
+
+.Boutique-top-header li {
+    float: left;
+    margin-left: 20px;
+    font-size: 14px;
+    color: #717171;
+}
+
+.Boutique-w {
+    margin-left: 12px;
+}
+
+.Boutique-hm {
+    margin-bottom: 12px;
+}
+
+
+/* .Boutique-l,
+.Boutique-m {
+    width: 291px;
+    height: 290px;
+} */
+
+.Boutique-m {
+    margin-left: 12px;
+}
+
+.Boutique-right-wlm {
+    margin-bottom: 12px;
+}
+
+.wlm {
+    position: relative;
+}
+
+.wlm-str {
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    /* width: 150px; */
+    height: 150px;
+    /* background-color: pink; */
+}
+
+.wlm-str::before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: #A80000;
+}
+
+.wlm-str p {
+    margin: 10px 0 20px;
+    font-size: 20px;
+}
+
+.wlm-str span {
+    font-size: 16px;
+    color: #A80000;
+}
+
+.Boutique-l .wlm-str {
+    color: #fff;
+}
+
+.Boutique-xh {
+    position: relative;
+    margin-top: 10px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+}
+
+.Boutique-xh span {
+    width: 22px;
+    height: 75px;
+    background: rgba(204, 204, 204, 0.3);
+    cursor: pointer;
+}
+
+.Boutique-xh span i {
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin-top: 30px;
+    /* background: rgba(204, 204, 204, 0.3); */
+    border-right: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+}
+
+.Boutique-lunbo-left {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: no-drop
+}
+
+.Boutique-lunbo-left i {
+    transform: rotateZ(135deg);
+    margin-left: 8px;
+}
+
+.Boutique-lunbo-right {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.Boutique-lunbo-right i {
+    margin-left: 3px;
+    transform: rotateZ(-50deg);
+}
+
+.Boutique-lunbo {
+    width: 900%;
+    height: 254px;
+    transition: all 1s;
+    /* border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc; */
+}
+
+.Boutique-lunbo li {
+    position: relative;
+    float: left;
+    height: 256px;
+    width: 213px;
+    border-left: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.Boutique-lunbo li:nth-child(1) {
+    border-left: 0;
+}
+
+.Boutique-lunbo li p {
+    text-align: center;
+}
+
+.grid-img {
+    width: 120px;
+    height: 120px;
+    margin: 22px auto 12px;
+}
+
+.grid-img img {
+    width: 100%;
+}
+
+.grid-title {
+    font-size: 18px;
+    margin-top: 22px;
+    color: #000;
+}
+
+.grid-desc-l {
+    margin: 5px 0;
+    color: #a4a4a4;
+}
+
+.grid-price-w {
+    font-size: 14px;
+    color: #900;
+}

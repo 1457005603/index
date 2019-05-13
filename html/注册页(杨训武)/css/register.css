@@ -1,0 +1,406 @@
+.page_w {
+  width: 960px;
+  margin: 0 auto;
+}
+body {
+  background: #F2F2F2!important;
+}
+.header {
+  height: 67px;
+  width: 100%;
+  background-color: #333;
+}
+.header .header_content {
+  font-size: 18px;
+  font-weight: 500;
+  color: aliceblue;
+  line-height: 67px;
+}
+.header .homeName {
+  margin-left: 12px;
+  vertical-align: middle;
+}
+.header .homeName em {
+  margin-right: 12px;
+  font-weight: 200;
+  color: #ccc;
+}
+.main_content {
+  position: relative;
+  font-size: 14px;
+  margin-top: 65px;
+  background: #fff;
+  padding: 30px 270px;
+}
+.main_content .logonmode .telLogon,
+.main_content .logonmode .emailLogon {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  display: inline-block;
+  padding: 6px 28px;
+  color: #f2f2f2;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.main_content .logonmode .telLogon i,
+.main_content .logonmode .emailLogon i {
+  font-size: 20px;
+  margin: 0 6px 0 -2px;
+}
+.main_content .logonmode .telLogon {
+  background-color: #B40707;
+}
+.main_content .logonmode .emailLogon {
+  position: absolute;
+  top: -40px;
+  left: 150px;
+  background-color: #ccc;
+}
+.main_content .logonmode .accounted {
+  position: absolute;
+  top: -25px;
+  right: 0;
+  color: #333;
+}
+.main_content .logonmode .accounted em {
+  color: cadetblue;
+  cursor: pointer;
+}
+.main_content .logonmode .accounted em:hover {
+  color: rgba(95, 158, 160, 0.6);
+}
+.main_content .logonlist {
+  padding-bottom: 100px;
+}
+.main_content .logonlist .nation {
+  display: flex;
+  margin-top: 20px;
+  background: #f7f7f7;
+  height: 42px;
+  line-height: 42px;
+  border: 1px solid #d9d9d9;
+  border-radius: 21px;
+  position: relative;
+}
+.main_content .logonlist .nation .nationTitle {
+  text-align: center;
+  border-right: 1px solid #ccc;
+  flex: 1;
+}
+.main_content .logonlist .nation .nationchoose {
+  height: 42px;
+  border-radius: 5px;
+  margin: 0 auto;
+  position: relative;
+  flex: 2;
+}
+.main_content .logonlist .nation .nationchoose .select2-selection__rendered {
+  text-align: center;
+}
+.main_content .logonlist .areaTel {
+  display: flex;
+  margin-top: 14px;
+  background: #f7f7f7;
+  height: 42px;
+  line-height: 42px;
+  border: 1px solid #d9d9d9;
+  border-radius: 21px;
+  position: relative;
+}
+.main_content .logonlist .areaTel .areatitle {
+  text-align: center;
+  border-right: 1px solid #ccc;
+  flex: 1;
+}
+.main_content .logonlist .areaTel .areatitle .select2 {
+  width: 140px!important;
+}
+.main_content .logonlist .areaTel .areatitle .select2 b {
+  margin-left: -18px;
+}
+.main_content .logonlist .areaTel .areatitle .select2 .f32 {
+  background: url("");
+  width: 0;
+  height: 0;
+}
+.main_content .logonlist .areaTel .telfillin {
+  flex: 2;
+}
+.main_content .logonlist .areaTel .telfillin .telinput {
+  position: relative;
+  top: -2px;
+  display: inline-block;
+  height: 36px;
+  width: 258px;
+  padding-left: 12px;
+  color: #333;
+  font-size: 14px;
+  line-height: 36px;
+  background: #f7f7f7;
+  outline: none;
+  border: none;
+}
+.main_content .logonlist .areaTel .telfillin .tureTel,
+.main_content .logonlist .areaTel .telfillin .errorTel {
+  position: relative;
+  top: -43px;
+  right: -280px;
+  display: inline-block;
+}
+.main_content .logonlist .areaTel .telfillin .tureTel img,
+.main_content .logonlist .areaTel .telfillin .errorTel img {
+  width: 35px;
+  height: 35px;
+}
+.main_content .logonlist .areaTel .telfillin .tureTel i,
+.main_content .logonlist .areaTel .telfillin .errorTel i {
+  color: cornflowerblue;
+  margin-left: -5px;
+  vertical-align: middle;
+}
+.main_content .logonlist .act span {
+  padding: 0 36px 0 0;
+  color: green;
+}
+.main_content .logonlist .act .inner {
+  z-index: 1000;
+}
+.main_content .logonlist .sliderCheck {
+  display: flex;
+  margin-top: 30px;
+  background: #f7f7f7;
+  height: 42px;
+  line-height: 42px;
+  border: 1px solid #d9d9d9;
+  border-radius: 21px;
+  position: relative;
+}
+.main_content .logonlist .sliderCheck .outer {
+  position: relative;
+  left: 22px;
+  width: 370px;
+  height: 40px;
+  line-height: 40px;
+  background: #f7f7f7;
+}
+.main_content .logonlist .sliderCheck .outer span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  padding: 0  0 0 36px;
+  width: 100%;
+  height: 100%;
+  color: #26BCD5;
+  text-align: center;
+  z-index: 9;
+}
+.main_content .logonlist .sliderCheck .outer .filter-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #E1E9DC;
+  z-index: 9;
+}
+.main_content .logonlist .sliderCheck .outer .inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 36px;
+  height: 40px;
+  text-align: center;
+  background: #fff;
+  cursor: pointer;
+  font-family: "宋体";
+  z-index: 10;
+  font-weight: bold;
+  color: #929292;
+  box-shadow: 1px 0px rgba(204, 204, 204, 0.5);
+}
+.main_content .logonlist .sliderCheck .outer .inner img {
+  width: 30px;
+  height: 30px;
+}
+.main_content .logonlist .note {
+  display: flex;
+  margin-top: 20px;
+  background: #f7f7f7;
+  height: 42px;
+  line-height: 42px;
+  border: 1px solid #d9d9d9;
+  border-radius: 21px;
+  position: relative;
+}
+.main_content .logonlist .note .noteTitle {
+  text-align: center;
+  border-right: 1px solid #ccc;
+  flex: 1;
+}
+.main_content .logonlist .note .notechoose {
+  height: 42px;
+  border-radius: 5px;
+  margin: 0 auto;
+  position: relative;
+  flex: 2;
+}
+.main_content .logonlist .note .notechoose .authcode {
+  position: relative;
+  top: -2px;
+  left: 18px;
+  display: inline-block;
+  height: 36px;
+  background-color: #f7f7f7;
+  outline: none;
+  border: none;
+}
+.main_content .logonlist .note .notechoose .reacquirecode {
+  position: relative;
+  top: 0px;
+  right: -8px;
+  height: 36px;
+  width: 80px;
+  color: #007DFF;
+  outline: none;
+  border: none;
+  background-color: #f7f7f7;
+}
+.main_content .logonlist .passwordbox {
+  display: flex;
+  margin-top: 40px;
+  background: #f7f7f7;
+  height: 42px;
+  line-height: 42px;
+  border: 1px solid #d9d9d9;
+  border-radius: 21px;
+  position: relative;
+}
+.main_content .logonlist .passwordbox .passTitle {
+  text-align: center;
+  border-right: 1px solid #ccc;
+  flex: 1;
+}
+.main_content .logonlist .passwordbox .passwordtext {
+  height: 42px;
+  border-radius: 5px;
+  margin: 0 auto;
+  position: relative;
+  flex: 2;
+}
+.main_content .logonlist .passwordbox .passwordtext .onepass {
+  position: relative;
+  top: -2px;
+  left: 18px;
+  display: inline-block;
+  height: 36px;
+  background-color: #f7f7f7;
+  outline: none;
+  border: none;
+}
+.main_content .logonlist .twicepass {
+  display: flex;
+  margin-top: 20px;
+  background: #f7f7f7;
+  height: 42px;
+  line-height: 42px;
+  border: 1px solid #d9d9d9;
+  border-radius: 21px;
+  position: relative;
+}
+.main_content .logonlist .twicepass .twicepassTitle {
+  text-align: center;
+  border-right: 1px solid #ccc;
+  flex: 1;
+}
+.main_content .logonlist .twicepass .twicepasstext {
+  height: 42px;
+  border-radius: 5px;
+  margin: 0 auto;
+  position: relative;
+  flex: 2;
+}
+.main_content .logonlist .twicepass .twicepasstext .twopass {
+  position: relative;
+  top: -2px;
+  left: 18px;
+  display: inline-block;
+  height: 36px;
+  background-color: #f7f7f7;
+  outline: none;
+  border: none;
+}
+.main_content .logonlist .twicepass .twicepasstext .turepass,
+.main_content .logonlist .twicepass .twicepasstext .errorpass,
+.main_content .logonlist .twicepass .twicepasstext .nullpass {
+  position: relative;
+  top: -43px;
+  right: -280px;
+  display: inline-block;
+}
+.main_content .logonlist .twicepass .twicepasstext .turepass img,
+.main_content .logonlist .twicepass .twicepasstext .errorpass img,
+.main_content .logonlist .twicepass .twicepasstext .nullpass img {
+  width: 35px;
+  height: 35px;
+}
+.main_content .logonlist .twicepass .twicepasstext .turepass i,
+.main_content .logonlist .twicepass .twicepasstext .errorpass i,
+.main_content .logonlist .twicepass .twicepasstext .nullpass i {
+  color: cornflowerblue;
+  margin-left: -5px;
+  vertical-align: middle;
+}
+.main_content .logonlist .dateSelection {
+  display: flex;
+  margin-top: 40px;
+  background: #f7f7f7;
+  height: 42px;
+  line-height: 42px;
+  border: 1px solid #d9d9d9;
+  border-radius: 21px;
+  position: relative;
+}
+.main_content .logonlist .dateSelection .dateTitle {
+  text-align: center;
+  border-right: 1px solid #ccc;
+  flex: 1;
+}
+.main_content .logonlist .dateSelection .datechoose {
+  height: 42px;
+  border-radius: 5px;
+  margin: 0 auto;
+  position: relative;
+  flex: 2;
+  font-size: 20px;
+  color: rgba(0, 123, 255, 0.534);
+  text-align: center;
+  left: -60px;
+}
+.main_content .logonlist .logonbtn {
+  position: relative;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 110px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: #f7f7f7;
+  background-color: #C70000;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.select2-container--open .select2-dropdown {
+  left: 4px;
+  top: -1px;
+}
+.select2-container--open .select2-dropdown .select2-results li .f32 {
+  background: url("");
+  width: 0;
+  height: 0;
+}

@@ -1,0 +1,180 @@
+/* 顶部快捷导航栏 */
+
+body {
+    height: 3000px;
+}
+
+
+/* 左侧导航栏 */
+
+.com-shortcut {
+    height: 30px;
+    background-color: #F9F9F9;
+}
+
+.com-shortcut .fl {
+    float: left;
+}
+
+.com-shortcut .fl div {
+    float: left;
+    position: relative;
+    padding: 0 10px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.com-shortcut .fl:nth-child(1) {
+    padding-left: 0!important;
+}
+
+.com-shortcut .fl span {
+    position: absolute;
+    left: -1px;
+    top: 1px;
+    font-size: 10px;
+    color: #ccc;
+}
+
+
+/* 左侧 导航栏结束*/
+
+
+/* 右侧 导航栏*/
+
+.com-shortcut .fr {
+    float: right;
+}
+
+.com-shortcut .fr div {
+    float: left;
+    position: relative;
+    padding: 0 10px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.com-shortcut .fr span {
+    position: absolute;
+    left: -1px;
+    top: 1px;
+    font-size: 10px;
+    color: #ccc;
+}
+
+
+/* 右侧导航栏结束 */
+
+
+/* 头部模块 */
+
+.header-com {
+    z-index: 999;
+    position: absolute;
+    width: 100%;
+    min-width: 1200px;
+    height: 50px;
+    padding: 10px 0;
+    background-color: #fff;
+}
+
+.header-com h1 {
+    float: left;
+    margin-left: 10px;
+}
+
+.header-com h1 a {
+    display: block;
+    width: 296px;
+    height: 50px;
+    background-size: 205px 36px;
+}
+
+.header-com h1 img {
+    position: absolute;
+    top: 5px;
+}
+
+.header-com ul {
+    margin-left: 10px;
+}
+
+.header-com ul li {
+    float: left;
+}
+
+.header-com ul li a {
+    display: inline-block;
+    font-size: 14px;
+    height: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    margin-left: 25px;
+    color: #333;
+}
+
+.header-com li a:hover {
+    color: #aa8361;
+    border-bottom: 2px solid #aa8361;
+}
+
+
+/* 头部模块结束 */
+
+
+/* 轮播图模块开始 */
+
+.lp {
+    position: relative;
+}
+
+.fled {
+    position: absolute;
+    background-color: pink;
+    width: 14.375rem;
+    height: 450px;
+    top: 70px;
+    left: 0;
+}
+
+.fred {
+    position: absolute;
+    background-color: pink;
+    width: 14.375rem;
+    height: 450px;
+    top: 70px;
+    right: 0;
+}
+
+.fled .fled-l {
+    position: absolute;
+    width: .9375rem;
+    height: .9375rem;
+    top: 45%;
+    left: 2.5rem;
+    border-top: 8px solid #fff;
+    border-left: 8px solid #fff;
+    transform: rotate(-45deg)
+}
+
+.fred .fred-r {
+    position: absolute;
+    width: .9375rem;
+    height: .9375rem;
+    top: 45%;
+    right: 2.5rem;
+    border-top: 8px solid #fff;
+    border-right: 8px solid #fff;
+    transform: rotate(45deg)
+}
+
+.focus {
+    position: absolute;
+    width: 1920px;
+    left: 50%;
+    margin-left: -960px;
+    min-height: 450px
+}
+
+
+/* 轮播图模块结束 */

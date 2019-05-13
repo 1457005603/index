@@ -1,0 +1,115 @@
+.shoufeng {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    display: flex;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 406px;
+//游戏列表排行start
+    .gameList {
+        flex: 1;
+        .morename {
+            float: right;
+            margin: 8px 10px 20px 0;
+            color: #ad5;
+        }
+        ul{
+         margin-right: 2px;
+
+        li{
+            height: 30px;
+            line-height: 30px; 
+            .gameContent 
+            {
+                display: flex;
+                padding-right: 58px;
+                .nameDo {
+                    flex: 2;
+                    a {
+                        font-size: 15px;
+                        font-weight: 600;
+                        color: #666;
+                    } 
+                    .downloadBtn {
+                        background-position: right -303px;
+                        padding-right: 10px;
+                        margin-top: -5px;
+                        font-size: 12px;
+                        font-weight: bold;
+                        text-align: center;
+                        color: #FFF;
+                        display: block;
+                        background: url(../img/download背景图.png) no-repeat;
+                        background-size: 100% 100%;
+                        height: 24px;
+                        width: 70px;
+                        line-height: 24px;
+                        font-family: 微软雅黑;
+                    }
+                }
+                img {
+                    width: 48px;
+                    height: 48px;
+                    margin-right: 8px;
+                }
+                    /* 应用前的序号样式 */
+                  .listnum {
+                      display: block;
+                      width: 16px;
+                      height: 16px;
+                      text-align: center;
+                      line-height: 16px;
+                      color: #fff;
+                      border-radius: 10%;
+                      margin: 6px 16px 0 10px;
+                      background-color: #28C0C6;
+                  }
+            }  
+             /* 文字内容的展示 */
+              .softwareName {
+                  position: relative;
+                  display: flex;
+              .listnum {
+                display: block;
+                width: 16px;
+                height: 16px;
+                text-align: center;
+                line-height: 16px;
+                color: #666;
+                border-radius: 10%;
+                margin: 6px 16px 0 10px;
+                background-color: #E6E6E6;
+            }
+              a {
+                font-weight: 300;
+                color: #666;
+                margin-left: -6px;
+            }
+            span {
+                 position: absolute;
+                 right:0;
+                 margin-right:6px;
+                 color: #7C7C7C;
+            }
+
+         }
+
+        } 
+         li:nth-child(1) {
+            margin-bottom: 20px;
+        }
+    }
+      
+        .gameTitle {
+            font-size: 16px;
+            font-weight: 500;
+            margin: 12px 0;
+            text-align: center;
+        }
+       
+
+    }
+}

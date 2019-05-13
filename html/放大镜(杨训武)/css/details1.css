@@ -1,0 +1,297 @@
+.borderBttom {
+  border-bottom: 1.5px solid #D8D8D8;
+}
+.introduced {
+  margin-top: 60px;
+  border-top: 2px solid #ccc;
+}
+.introduced .headv {
+  position: relative;
+  top: 0;
+  left: 0;
+  font-size: 20px;
+  height: 70px;
+  width: 100%;
+  background-color: #F3F4F6;
+  line-height: 70px;
+  z-index: 10;
+  cursor: pointer;
+}
+.introduced .headv div {
+  position: relative;
+  left: 30%;
+  float: left;
+  color: #A4A4A9;
+  margin-right: 52px;
+}
+.introduced .headv .headv-check {
+  color: #FE4365;
+  border-bottom: 2px solid #FE4365;
+}
+.introduced .tabContent .nav-list .nav1 {
+  margin-bottom: 15px;
+}
+.introduced .tabContent .nav-list .nav1 .showBtn,
+.introduced .tabContent .nav-list .nav1 .hideBtn {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 50px;
+}
+.introduced .tabContent .nav-list img {
+  width: 100%;
+  height: 100%u;
+}
+.introduced .tabContent .nav-list .nav2 .product-title {
+  display: block;
+  font-size: 18px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  position: relative;
+  padding-left: 14px;
+}
+.introduced .tabContent .nav-list .nav2 .product-title:before {
+  content: "";
+  width: 4px;
+  height: 23px;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 1px;
+  background: #ca141d;
+}
+.introduced .tabContent .nav-list .nav2 .Parameters {
+  display: block;
+  padding: 9px 50px 32px 16px;
+}
+.introduced .tabContent .nav-list .nav2 .Parameters .major {
+  position: relative;
+  top: -1px;
+  float: left;
+  font-size: 22px;
+  font-weight: 600;
+  width: 100px;
+}
+.introduced .tabContent .nav-list .nav2 .Parameters .occupied {
+  display: block;
+  height: 16px;
+}
+.introduced .tabContent .nav-list .nav2 .Parameters ul {
+  float: right;
+  font-size: 14px;
+}
+.introduced .tabContent .nav-list .nav2 .Parameters ul li {
+  position: relative;
+  margin-bottom: 8px;
+}
+.introduced .tabContent .nav-list .nav2 .Parameters ul li label {
+  float: left;
+  width: 128px;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+.introduced .tabContent .nav-list .nav2 .Parameters ul li span {
+  float: left;
+  width: 854px;
+  margin-left: 20px;
+}
+.introduced .tabContent .nav-list .nav2 .Parameters ul li:before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: -16px;
+  width: 6px;
+  height: 6px;
+  display: block;
+  border-radius: 3px;
+  background: #d8d8d8;
+}
+.introduced .tabContent .nav-list .nav2 .Parameters ul li:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+.introduced .tabContent .nav-list .nav2 .mainbody_para {
+  background-color: #f5f5f5;
+}
+.introduced .tabContent .nav-list .nav2 .mainbody_para .mainbody_parameter {
+  display: block;
+  padding: 9px 50px 32px 16px;
+}
+.introduced .tabContent .nav-list .nav2 .mainbody_para .mainbody_parameter .major {
+  position: relative;
+  top: -1px;
+  float: left;
+  font-size: 22px;
+  font-weight: 600;
+  width: 100px;
+}
+.introduced .tabContent .nav-list .nav2 .mainbody_para .mainbody_parameter .occupied {
+  display: block;
+  height: 16px;
+}
+.introduced .tabContent .nav-list .nav2 .mainbody_para .mainbody_parameter ul {
+  float: right;
+  font-size: 14px;
+}
+.introduced .tabContent .nav-list .nav2 .mainbody_para .mainbody_parameter ul li {
+  position: relative;
+  margin-bottom: 8px;
+}
+.introduced .tabContent .nav-list .nav2 .mainbody_para .mainbody_parameter ul li label {
+  float: left;
+  width: 128px;
+  margin-bottom: 0;
+  cursor: pointer;
+}
+.introduced .tabContent .nav-list .nav2 .mainbody_para .mainbody_parameter ul li span {
+  float: left;
+  width: 854px;
+  margin-left: 20px;
+}
+.introduced .tabContent .nav-list .nav2 .mainbody_para .mainbody_parameter ul li:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+.introduced .tabContent .nav-list .nav3 .wrap .wraptitle {
+  display: block;
+  font-size: 18px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  position: relative;
+  padding-left: 14px;
+}
+.introduced .tabContent .nav-list .nav3 .wrap .wraptitle:before {
+  content: "";
+  width: 4px;
+  height: 23px;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 1px;
+  background: #ca141d;
+}
+.introduced .tabContent .nav-list .nav3 .wrap p span {
+  display: block;
+  margin: 30px 0 35px 120px;
+}
+.introduced .tabContent .nav-list .nav3 .wrap p span em {
+  font-size: 14px;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  color: #3a3a3a;
+  margin-right: 20px;
+  margin-bottom: 16px;
+  padding-left: 16px;
+  width: 223px;
+}
+.introduced .tabContent .nav-list .nav3 .wrap p span em:before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  display: block;
+  border-radius: 3px;
+  background: #d8d8d8;
+  position: absolute;
+  top: 7px;
+  left: 0;
+}
+.introduced .tabContent .nav-list .nav3 .afterSale .afterSaletitle {
+  display: block;
+  font-size: 18px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  position: relative;
+  padding-left: 14px;
+}
+.introduced .tabContent .nav-list .nav3 .afterSale .afterSaletitle:before {
+  content: "";
+  width: 4px;
+  height: 23px;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 1px;
+  background: #ca141d;
+}
+.introduced .tabContent .nav-list .nav3 .afterSale ul {
+  margin: 35px 0;
+}
+.introduced .tabContent .nav-list .nav3 .afterSale ul li {
+  font-size: 14px;
+  position: relative;
+  vertical-align: top;
+  color: #3a3a3a;
+  margin: 0 0 8px 116px;
+  padding-left: 16px;
+  width: 940px;
+}
+.introduced .tabContent .nav-list .nav3 .afterSale ul li:before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  display: block;
+  border-radius: 3px;
+  background: #d8d8d8;
+  position: absolute;
+  top: 7px;
+  left: 0;
+}
+.introduced .tabContent .nav-list .nav3 .afterSale .exemption {
+  margin: 60px 0;
+}
+.introduced .tabContent .nav-list .nav3 .afterSale .exemption p {
+  margin: 0 ;
+  font-size: 14px;
+}
+.introduced .tabContent .nav-list .nav4 .evaluate .evaluateTitle {
+  background: #f5f5f5;
+}
+.introduced .tabContent .nav-list .nav4 .evaluate .evaluateTitle .evaluatecontent {
+  position: relative;
+  padding: 46px 0 34px 0;
+  cursor: default;
+}
+.introduced .tabContent .nav-list .nav4 .evaluate .evaluateTitle .evaluatecontent .product-score-average label {
+  font-size: 14px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  margin-top: -10px;
+}
+.introduced .tabContent .nav-list .nav4 .evaluate .evaluateTitle .evaluatecontent .product-score-average p {
+  color: #ca141d;
+  font-size: 72px;
+  width: 100px;
+  position: absolute;
+  top: 50%;
+  margin-top: -54px;
+  left: 88px;
+}
+.introduced .tabContent .nav-list .nav4 .evaluate .evaluateTitle .evaluatecontent .product-score-average p em {
+  font-size: 22px;
+}
+.introduced .tabContent .nav-list .nav4 .evaluate .evaluateTitle .evaluatecontent .product-score-impress {
+  float: left;
+}
+.introduced .tabContent .nav-list .nav4 .evaluate .evaluateTitle .evaluatecontent .product-score-impress label {
+  font-size: 14px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 240px;
+  margin-top: -10px;
+}
+.foottitle {
+  margin: 60px 0;
+  text-align: center;
+}
+.foottitle a {
+  font-size: 40px;
+}
+.main_box {
+  margin-bottom: 60px;
+}

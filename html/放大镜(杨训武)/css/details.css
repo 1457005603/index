@@ -1,0 +1,703 @@
+html {
+  font-size: 12px;
+}
+.current {
+  border: 1px solid red!important;
+}
+.zy_media {
+  height: 314px!important;
+}
+.togglemob {
+  display: none;
+}
+label {
+  font-weight: 400;
+  margin-right: 15px;
+}
+.container .modal-dialog {
+  width: 450px;
+  margin-top: 150px;
+}
+.container .modal-dialog .modal-title {
+  font-size: 20px;
+  text-align: center;
+}
+.container .modal-dialog .modal-body {
+  position: relative;
+}
+.container .modal-dialog .modal-body .giftlogo img {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.container .modal-dialog .modal-body .giftcontent {
+  position: absolute;
+  top: 18px;
+  left: 115px;
+  display: flex;
+  flex-direction: column;
+}
+.container .modal-dialog .modal-body .giftcontent .modal_title {
+  flex: 1;
+}
+.container .modal-dialog .modal-body .giftcontent .giftOption {
+  margin-top: 10px;
+  padding: 8px 0;
+  border: 1px solid red;
+  flex: 1;
+}
+.container .modal-dialog .modal-body .giftcontent .giftOption img {
+  height: 30px;
+  width: 30px;
+  margin: 0 10px;
+}
+.container .modal-dialog .modal-body .giftcontent .giftOption .giftname {
+  color: #333;
+  font-weight: 700;
+  padding: 15px 0;
+}
+.bread {
+  height: 2.875rem;
+  line-height: 1.875rem;
+}
+.bread .iconfont {
+  color: #BFC9DF;
+  font-size: 0.375rem;
+}
+.bread a {
+  margin-left: 10px;
+  color: #666666;
+}
+.bread a:hover {
+  color: #333333;
+}
+.bread a:visited {
+  color: #666666;
+}
+.bread span {
+  margin-left: 10px;
+  color: #333333;
+}
+.bread:before,
+.bread:after {
+  content: "";
+  display: table;
+  margin-top: 10px;
+}
+.homepage {
+  display: flex;
+}
+.homepage .set_Top {
+  position: fixed;
+  bottom: 100px;
+  right: 25px;
+}
+.homepage .set_Top img {
+  width: 60px;
+  height: 60px;
+}
+.homepage .mobile {
+  position: relative;
+  flex: 2;
+}
+.homepage .mobile .slideMob {
+  position: relative;
+  top: 0;
+}
+.homepage .mobile .slideMob .bigmobile {
+  position: relative;
+  width: 480px;
+  height: 450px;
+}
+.homepage .mobile .slideMob .bigmobile .playvideo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  display: none;
+  z-index: 1000;
+}
+.homepage .mobile .slideMob .bigmobile .playvideo .video {
+  position: absolute;
+  left: 0px;
+  top: 80px;
+  height: 480px;
+  width: 480px;
+  background-color: #000!important;
+  display: none;
+  z-index: 1001;
+}
+.homepage .mobile .slideMob .bigmobile .playvideo .closed {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 15px;
+  height: 14px;
+  text-indent: -999px;
+  overflow: hidden;
+  z-index: 1001;
+  cursor: pointer;
+  background: url("../upload/icon50.png") no-repeat 0 -160px;
+}
+.homepage .mobile .slideMob .bigmobile .videoshow {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 70px;
+  height: 28px;
+  background: url("../upload/icon50.png") no-repeat -38px 0;
+  line-height: 24px;
+  color: #ca141d;
+  text-indent: -999px;
+  overflow: hidden;
+  z-index: 1000;
+  cursor: pointer;
+  display: block;
+}
+.homepage .mobile .slideMob .bigmobile .glass {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 150px;
+  border: 1px solid rgba(39, 24, 1, 0.2);
+  background-color: rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  display: none;
+  cursor: move;
+}
+.homepage .mobile .slideMob .bigmobile .blow {
+  position: absolute;
+  top: 60px;
+  left: 520px;
+  width: 300px;
+  height: 300px;
+  border: 1px solid #ccc;
+  background: #ffffff;
+  z-index: 99;
+  overflow: hidden;
+  display: none;
+}
+.homepage .mobile .slideMob .bigmobile .blow img {
+  width: 800px;
+  height: 800px;
+}
+.homepage .mobile .slideMob .bigmobile li {
+  position: absolute;
+}
+.homepage .mobile .slideMob .bigmobile li img {
+  width: 450px;
+  height: 450px;
+  text-align: center;
+}
+.homepage .mobile .slideMob .btnl,
+.homepage .mobile .slideMob .btnr {
+  font-size: 40px;
+  line-height: 68px;
+  color: #ccc;
+  opacity: .5;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.homepage .mobile .slideMob .btnl {
+  float: left;
+  position: relative;
+  left: 35px;
+  bottom: -15px;
+}
+.homepage .mobile .slideMob .btnr {
+  float: right;
+  position: relative;
+  right: 35px;
+  bottom: -15px;
+  transform: rotate(180deg);
+}
+.homepage .mobile .slideMob .btnl:hover,
+.homepage .mobile .slideMob .btnr:hover {
+  border-radius: 90%;
+  box-shadow: 2px 1px #ccc;
+}
+.homepage .mobile .slideMob .smallmobile {
+  height: 78px;
+  width: 318px;
+  margin: 15px auto;
+  overflow: hidden;
+}
+.homepage .mobile .slideMob .smallmobile .smallmobilelun {
+  position: relative;
+  width: 450px;
+  height: 75px;
+}
+.homepage .mobile .slideMob .smallmobile .smallmobilelun ul {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.homepage .mobile .slideMob .smallmobile .smallmobilelun ul li {
+  float: left;
+  margin-left: 3px;
+}
+.homepage .mobile .slideMob .smallmobile .smallmobilelun ul li img {
+  width: 60px;
+  height: 60px;
+}
+.homepage .buy {
+  padding-left: 20px;
+  background-color: #fff;
+  flex: 3;
+}
+.homepage .buy .early .mete_title {
+  position: relative;
+  height: 85px;
+  overflow: hidden;
+}
+.homepage .buy .early .mete_title .mobtitle {
+  font-size: 21px;
+  max-height: 84px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.homepage .buy .early .mete_title .slogan_btn {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  display: block;
+  background: url(../upload/icon50.png) no-repeat 0 -19px;
+}
+.homepage .buy .early .mete_title .ulogan_btn {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  display: block;
+  background: url(../upload/icon50.png) no-repeat 0 4px;
+}
+.homepage .buy .early .mete_title .gift {
+  position: relative;
+  top: -3px;
+  display: block;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ca141d;
+  margin-right: 15px;
+  padding-right: 40px;
+  margin-bottom: 12px;
+}
+.homepage .buy .early .mete_title .gift .intro {
+  color: #333;
+  margin-left: 20px;
+}
+.homepage .buy .early .price {
+  margin-top: 15px;
+  margin-bottom: -25px;
+  padding: 10px 0 0 8px;
+  background-color: #F5F5F5;
+}
+.homepage .buy .early .price .price_one {
+  margin-bottom: 15px;
+}
+.homepage .buy .early .price .price_one span {
+  font-size: 25px;
+  color: #CA141D;
+}
+.homepage .buy .early .price .price_one span i {
+  font-size: 18px;
+}
+.homepage .buy .early .price .price_one del {
+  font-size: 20px;
+  color: #A4A4A4;
+}
+.homepage .buy .early .price .price_two {
+  position: relative;
+}
+.homepage .buy .early .price .price_two label {
+  display: block;
+  font-weight: 400;
+  margin-right: 15px;
+  margin-bottom: -4px;
+}
+.homepage .buy .early .price .price_two .price_twoA {
+  position: relative;
+  top: -18px;
+  left: 65px;
+}
+.homepage .buy .early .price .price_two .price_twoA ul {
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+}
+.homepage .buy .early .price .price_two .price_twoA ul em {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 400;
+  color: #CA141D;
+  padding: 1px 4px;
+  margin-bottom: 12px;
+  margin-right: 10px;
+  border: 1px solid #CA141D;
+}
+.homepage .buy .early .price .price_two .price_twoA ul .one img {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+.homepage .buy .early .price .price_two .price_twoA ul .one .option {
+  color: #A4A4A4;
+  cursor: pointer;
+}
+.homepage .buy .early .price .price_two .price_twoA ul .four em {
+  margin-bottom: 0px;
+}
+.homepage .buy .early .price .price_two .price_twoA ul .five {
+  position: absolute;
+  bottom: 10px;
+  left: 70px;
+  width: 80%;
+}
+.homepage .buy .early .price .price_two .price_twoA ul .five em {
+  margin-bottom: 0px;
+}
+.homepage .buy .early .price .price_two .price_twoA ul .five .unwind {
+  float: right;
+  color: #ADADAD;
+}
+.homepage .buy .early .serice {
+  padding: 30px 0 0 8px;
+}
+.homepage .buy .early .serice .site {
+  position: relative;
+  top: -22px;
+  left: 60px;
+}
+.homepage .buy .early .serice .site i {
+  padding: 6px 0;
+}
+.homepage .buy .early .serice .site .tone {
+  display: inline-block;
+  width: 20px;
+  height: 12px;
+  background: url(../upload/icon50.png) no-repeat;
+  background-position-y: -148px;
+  overflow: hidden;
+}
+.homepage .buy .early .serice .site .planon img {
+  position: absolute;
+  top: 8px;
+  right: -14px;
+  width: 195px;
+  height: 115px;
+  margin-right: 60px;
+  transform: rotate(180deg);
+}
+.homepage .buy .early .serice .site .planon em {
+  position: absolute;
+  top: 52px;
+  right: 70px;
+  display: inline-block;
+  width: 154px;
+  height: 100px;
+  font-size: 5px;
+  color: #83AF9B;
+}
+.homepage .buy .early .serice .reach {
+  width: 614px;
+  line-height: 24px;
+}
+.homepage .buy .early .serice .reach ul {
+  margin-left: 42px;
+}
+.homepage .buy .early .serice .reach ul li {
+  display: inline-block;
+  font-size: 13px;
+  margin-right: 12px;
+  position: relative;
+  padding-left: 18px;
+  line-height: 18px;
+}
+.homepage .buy .early .serice .reach ul li:before {
+  font-size: 14;
+  font-weight: 700;
+}
+.homepage .buy .early .code {
+  padding: 10px 0 4px 8px;
+  border-bottom: 1px solid #ccc;
+}
+.homepage .buy .lateer {
+  padding: 10px 0 0 8px;
+}
+.homepage .buy .lateer i {
+  color: #333;
+}
+.homepage .buy .lateer .colortitle {
+  margin-bottom: 40px;
+}
+.homepage .buy .lateer .colorsele {
+  float: right;
+  width: 605px;
+}
+.homepage .buy .lateer .colorsele ul {
+  display: block;
+  width: 605px;
+  margin-left: -20px;
+}
+.homepage .buy .lateer .colorsele ul li {
+  float: left;
+  margin-right: 15px;
+  padding: 5px 6px;
+  border-radius: 5%;
+  border: 1px solid #ccc;
+}
+.homepage .buy .lateer .colorsele ul li img {
+  width: 30px;
+  height: 30px;
+}
+.homepage .buy .lateer .colorsele ul button {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  outline: none;
+  border-radius: 5%;
+  border: 1px solid #ccc;
+  padding: 5px 6px;
+  cursor: no-drop;
+}
+.homepage .buy .lateer .colorsele ul button img {
+  width: 30px;
+  height: 30px;
+}
+.homepage .buy .lateer .deployOption {
+  margin-bottom: 60px;
+}
+.homepage .buy .lateer .deploy {
+  float: right;
+  width: 605px;
+  margin-top: -5px;
+}
+.homepage .buy .lateer .deploy ul {
+  display: block;
+  width: 605px;
+  margin-left: -20px;
+}
+.homepage .buy .lateer .deploy ul li {
+  float: left;
+  margin: 0 15px 10px 0;
+  padding: 5px 6px;
+  border-radius: 5%;
+  border: 1px solid #ccc;
+}
+.homepage .buy .lateer .deploy ul li a {
+  color: #333;
+}
+.homepage .buy .lateer .setmealOption {
+  margin-bottom: 30px;
+}
+.homepage .buy .lateer .setmeal {
+  float: right;
+  width: 605px;
+  margin-top: -5px;
+}
+.homepage .buy .lateer .setmeal ul {
+  display: block;
+  width: 605px;
+  margin-left: -20px;
+}
+.homepage .buy .lateer .setmeal ul li {
+  float: left;
+  margin: 0 15px 10px 0;
+  padding: 5px 6px;
+  border-radius: 5%;
+  border: 1px solid red;
+}
+.homepage .buy .lateer .setmeal ul li a {
+  color: #333;
+}
+.homepage .buy .lateer .guaranteeOp {
+  margin-bottom: 20px;
+}
+.homepage .buy .lateer .guarantee {
+  float: right;
+  width: 605px;
+  margin-top: -5px;
+}
+.homepage .buy .lateer .guarantee ul {
+  position: relative;
+  display: block;
+  width: 605px;
+  margin-left: -20px;
+}
+.homepage .buy .lateer .guarantee ul li {
+  float: left;
+  margin: 0 15px 10px 0;
+  padding: 6px 6px;
+  border-radius: 5%;
+  border: 1px solid #ccc;
+}
+.homepage .buy .lateer .guarantee ul li a {
+  color: #333;
+}
+.homepage .buy .lateer .guarantee ul .prolong {
+  position: relative;
+  background-color: #fff;
+  z-index: 12;
+}
+.homepage .buy .lateer .guarantee ul .downBox {
+  position: absolute;
+  bottom: -103px;
+  left: 0;
+  padding: 12px 65px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  z-index: 10;
+}
+.homepage .buy .lateer .guarantee ul .downBox .downBoxcont {
+  margin-left: -50px;
+}
+.homepage .buy .lateer .guarantee ul .downBox .downBoxcont a {
+  display: block;
+  color: #333;
+}
+.homepage .buy .lateer .guarantee ul .downBox .downBoxcont a input {
+  display: inline-block;
+  height: 15px;
+  width: 18px;
+  cursor: pointer;
+}
+.homepage .buy .lateer .guarantee ul .downBox .downBoxcont a del {
+  font-weight: 500;
+}
+.homepage .buy .lateer .guarantee ul .downBox .downBoxcont .oneBox {
+  margin-bottom: 8px;
+}
+.homepage .buy .lateer .agingOption {
+  margin-bottom: 20px;
+}
+.homepage .buy .lateer .aging {
+  float: right;
+  width: 605px;
+  margin-top: -5px;
+}
+.homepage .buy .lateer .aging ul {
+  position: relative;
+  display: block;
+  width: 605px;
+  margin-left: -20px;
+}
+.homepage .buy .lateer .aging ul li {
+  float: left;
+  margin: 0 15px 10px 0;
+  padding: 6px 6px;
+  border-radius: 5%;
+  border: 1px solid #ccc;
+}
+.homepage .buy .lateer .aging ul li a {
+  color: #333;
+}
+.homepage .buy .lateer .selectedOp {
+  margin-bottom: 15px;
+}
+.homepage .buy .lateer .selected {
+  float: right;
+  width: 605px;
+  margin-top: -5px;
+}
+.homepage .buy .lateer .selected ul {
+  position: relative;
+  display: block;
+  width: 605px;
+  margin-left: -20px;
+}
+.homepage .buy .lateer .selected ul li {
+  float: left;
+  color: #ca141d;
+  padding: 6px 0px;
+}
+.homepage .buy .lateer .addnum {
+  display: flex;
+  width: 40px;
+  height: 40px;
+}
+.homepage .buy .lateer .addnum .numShow {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  outline: none;
+  flex: 2;
+}
+.homepage .buy .lateer .addnum .btnTwo {
+  flex: 1;
+}
+.homepage .buy .lateer .addnum .btnTwo .addBtn,
+.homepage .buy .lateer .addnum .btnTwo .relBtn {
+  width: 20px;
+  height: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  outline: none;
+  border: 1px solid #A9A9A9;
+  border-left: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+.homepage .buy .lateer .addnum .btnTwo .relBtn {
+  border-top: none;
+}
+.homepage .buy .lateer .settle {
+  float: right;
+  width: 605px;
+  margin-top: -5px;
+}
+.homepage .buy .lateer .settle ul {
+  position: relative;
+  display: block;
+  width: 605px;
+  margin-left: -20px;
+}
+.homepage .buy .lateer .settle ul li {
+  float: left;
+  margin: 0 15px 10px 0;
+}
+.homepage .buy .lateer .settle ul .shopCar {
+  background-color: #FC600C;
+  width: 172px;
+  height: 46px;
+  font-size: 18px;
+  line-height: 46px;
+  text-align: center;
+  color: #fff;
+  border-radius: 2px;
+  border: 0;
+  cursor: pointer;
+}
+.homepage .buy .lateer .settle ul .shopCar a {
+  color: #fff;
+}
+.homepage .buy .lateer .settle ul .buyOrder {
+  background-color: #CA151D;
+  width: 172px;
+  height: 46px;
+  font-size: 18px;
+  line-height: 46px;
+  text-align: center;
+  color: #fff;
+  border-radius: 2px;
+  border: 0;
+  cursor: pointer;
+}
+.homepage .buy .lateer .settle ul .buyOrder a {
+  color: #fff;
+}
+.homepage .buy .lateer .settle ul .tishikuan {
+  font-size: 12px;
+  font-weight: 600;
+}
+.homepage .buy .lateer .settle ul .shopCar:hover {
+  background-color: rgba(252, 96, 12, 0.8);
+}
+.homepage .buy .lateer .settle ul .buyOrder:hover {
+  background-color: rgba(202, 21, 29, 0.8);
+}
