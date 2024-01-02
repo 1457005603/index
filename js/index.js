@@ -9,11 +9,7 @@ window.addEventListener('load', function() {
 });
 $(function() {
     // 电梯导航
-    // if ($(document).scrollTop() >= $('.recommend-goods-focus2').offset().top) {
-    //     $('.elevator').css("right", "0");
-    // } else {
-    //     $('.elevator').css("right", "-100px");
-    // }
+    console.log('huixiao')
     $(window).scroll(function() {
         if ($(document).scrollTop() >= $('.recommend-goods-focus2').offset().top) {
             $('.elevator').css("right", "0");
